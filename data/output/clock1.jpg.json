@@ -1,13 +1,22 @@
 {
   "image_id": "input\\clock1.jpg",
-  "timestamp": "2026-03-26T12:57:18.700253",
+  "timestamp": "2026-03-26T13:05:42.433832",
   "status": "processed",
   "detections": [
     {
       "class": "clock",
-      "confidence": 0.531671404838562
+      "confidence": 0.531671404838562,
+      "bbox": [
+        41.42827606201172,
+        60.652000427246094,
+        251.0589599609375,
+        302.3720703125
+      ]
     }
   ],
-  "ppe_compliance": null,
+  "ppe_compliance": {
+    "status": "no_worker",
+    "person_count": 0
+  },
   "severity": null
 }

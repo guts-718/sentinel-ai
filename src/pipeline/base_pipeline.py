@@ -2,12 +2,14 @@ import os
 import json
 from datetime import datetime
 from src.models.yolo_detector import YOLODetector
+from src.pipeline.ppe_logic import PPELogic
 
 class BasePipeline:
     def __init__(self, config, logger):
         self.config = config
         self.logger = logger
         self.detector = YOLODetector()
+        self.ppe_logic = PPELogic()
 
     def process_image(self, image_path):
         self.logger.info(f"Processing image: {image_path}")
@@ -15,12 +17,15 @@ class BasePipeline:
         detections = self.detector.detect(image_path)
         self.logger.info(f"Detections: {detections}")
 
+        ppe_result = self.ppe_logic.evaluate(detections)
+        self.logger.info(f"PPE result: {ppe_result}")
+        
         result = {
             "image_id": image_path.split("/")[-1],
             "timestamp": datetime.utcnow().isoformat(),
             "status": "processed",
             "detections": detections,
-            "ppe_compliance": None,
+            "ppe_compliance": ppe_result,
             "severity": None
         }
 

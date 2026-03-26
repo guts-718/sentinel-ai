@@ -1,13 +1,22 @@
 {
   "image_id": "input\\man.jpg",
-  "timestamp": "2026-03-26T12:57:19.014334",
+  "timestamp": "2026-03-26T13:05:42.739784",
   "status": "processed",
   "detections": [
     {
       "class": "person",
-      "confidence": 0.9095549583435059
+      "confidence": 0.9095549583435059,
+      "bbox": [
+        800.6801147460938,
+        788.5094604492188,
+        1734.535888671875,
+        2610.8828125
+      ]
     }
   ],
-  "ppe_compliance": null,
+  "ppe_compliance": {
+    "status": "unknown",
+    "person_count": 1
+  },
   "severity": null
 }

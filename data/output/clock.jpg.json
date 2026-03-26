@@ -1,8 +1,11 @@
 {
   "image_id": "input\\clock.jpg",
-  "timestamp": "2026-03-26T12:57:18.610254",
+  "timestamp": "2026-03-26T13:05:42.353949",
   "status": "processed",
   "detections": [],
-  "ppe_compliance": null,
+  "ppe_compliance": {
+    "status": "no_worker",
+    "person_count": 0
+  },
   "severity": null
 }

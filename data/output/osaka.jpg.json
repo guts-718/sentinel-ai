@@ -1,13 +1,22 @@
 {
   "image_id": "input\\osaka.jpg",
-  "timestamp": "2026-03-26T12:57:19.107323",
+  "timestamp": "2026-03-26T13:05:42.828413",
   "status": "processed",
   "detections": [
     {
       "class": "clock",
-      "confidence": 0.34363293647766113
+      "confidence": 0.34363293647766113,
+      "bbox": [
+        353.8269958496094,
+        74.54338073730469,
+        974.9519653320312,
+        925.763916015625
+      ]
     }
   ],
-  "ppe_compliance": null,
+  "ppe_compliance": {
+    "status": "no_worker",
+    "person_count": 0
+  },
   "severity": null
 }
