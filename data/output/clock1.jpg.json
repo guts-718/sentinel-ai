@@ -1,11 +1,11 @@
 {
-  "image_id": "input\\osaka.jpg",
-  "timestamp": "2026-03-26T12:57:19.107323",
+  "image_id": "input\\clock1.jpg",
+  "timestamp": "2026-03-26T12:57:18.700253",
   "status": "processed",
   "detections": [
     {
       "class": "clock",
-      "confidence": 0.34363293647766113
+      "confidence": 0.531671404838562
     }
   ],
   "ppe_compliance": null,

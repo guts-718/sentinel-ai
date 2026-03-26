@@ -17,6 +17,7 @@ def main():
 
     for file in os.listdir(input_dir):
         image_path = os.path.join(input_dir, file)
+        print(f"Processing {image_path}...")
 
         result = pipeline.process_image(image_path)
         pipeline.save_output(result)

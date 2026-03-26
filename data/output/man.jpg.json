@@ -1,0 +1,13 @@
+{
+  "image_id": "input\\man.jpg",
+  "timestamp": "2026-03-26T12:57:19.014334",
+  "status": "processed",
+  "detections": [
+    {
+      "class": "person",
+      "confidence": 0.9095549583435059
+    }
+  ],
+  "ppe_compliance": null,
+  "severity": null
+}

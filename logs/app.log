@@ -1,2 +1,31 @@
 2026-03-26 16:27:51,463 - INFO - Processing image: data/input\osaka.jpg
 2026-03-26 16:27:51,465 - INFO - Saved output for osaka.jpg
+2026-03-26 18:11:58,763 - INFO - Processing image: data/input\clock.jpg
+2026-03-26 18:11:59,117 - INFO - Detections: []
+2026-03-26 18:14:06,276 - INFO - Processing image: data/input\clock.jpg
+2026-03-26 18:14:06,650 - INFO - Detections: []
+2026-03-26 18:16:06,089 - INFO - Processing image: data/input\clock.jpg
+2026-03-26 18:16:06,399 - INFO - Detections: []
+2026-03-26 18:17:45,778 - INFO - Processing image: data/input\clock.jpg
+2026-03-26 18:17:46,134 - INFO - Detections: []
+2026-03-26 18:21:10,833 - INFO - Processing image: data/input\clock.jpg
+2026-03-26 18:21:11,301 - INFO - Detections: []
+2026-03-26 18:23:55,791 - INFO - Processing image: data/input\clock.jpg
+2026-03-26 18:23:56,158 - INFO - Detections: []
+2026-03-26 18:25:31,677 - INFO - Processing image: data/input\clock.jpg
+2026-03-26 18:25:32,044 - INFO - Detections: []
+2026-03-26 18:27:18,249 - INFO - Processing image: data/input\clock.jpg
+2026-03-26 18:27:18,610 - INFO - Detections: []
+2026-03-26 18:27:18,611 - INFO - Saved output for clock.jpg
+2026-03-26 18:27:18,611 - INFO - Processing image: data/input\clock1.jpg
+2026-03-26 18:27:18,700 - INFO - Detections: [{'class': 'clock', 'confidence': 0.531671404838562}]
+2026-03-26 18:27:18,701 - INFO - Saved output for clock1.jpg
+2026-03-26 18:27:18,701 - INFO - Processing image: data/input\construction.jpg
+2026-03-26 18:27:18,827 - INFO - Detections: [{'class': 'person', 'confidence': 0.8164794445037842}, {'class': 'person', 'confidence': 0.7913116216659546}, {'class': 'person', 'confidence': 0.7422417402267456}, {'class': 'person', 'confidence': 0.3113192021846771}]
+2026-03-26 18:27:18,829 - INFO - Saved output for construction.jpg
+2026-03-26 18:27:18,830 - INFO - Processing image: data/input\man.jpg
+2026-03-26 18:27:19,014 - INFO - Detections: [{'class': 'person', 'confidence': 0.9095549583435059}]
+2026-03-26 18:27:19,015 - INFO - Saved output for man.jpg
+2026-03-26 18:27:19,016 - INFO - Processing image: data/input\osaka.jpg
+2026-03-26 18:27:19,107 - INFO - Detections: [{'class': 'clock', 'confidence': 0.34363293647766113}]
+2026-03-26 18:27:19,108 - INFO - Saved output for osaka.jpg
