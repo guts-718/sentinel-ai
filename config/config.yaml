@@ -1,0 +1,10 @@
+project:
+  name: construction-safety-ai
+
+paths:
+  input_dir: data/input
+  output_dir: data/output
+  log_dir: logs
+
+logging:
+  level: INFO
