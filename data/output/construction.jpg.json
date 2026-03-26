@@ -1,6 +1,6 @@
 {
   "image_id": "input\\construction.jpg",
-  "timestamp": "2026-03-26T14:27:31.658983",
+  "timestamp": "2026-03-26T14:35:02.120710",
   "status": "processed",
   "detections": [
     {
@@ -49,5 +49,9 @@
     "person_count": 4
   },
   "severity": null,
-  "caption": "two construction workers are looking at a building"
+  "caption": "two construction workers are looking at a building",
+  "nlp_analysis": {
+    "safety_measures": [],
+    "has_safety": false
+  }
 }

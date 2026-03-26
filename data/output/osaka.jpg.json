@@ -1,6 +1,6 @@
 {
   "image_id": "input\\osaka.jpg",
-  "timestamp": "2026-03-26T14:27:33.099789",
+  "timestamp": "2026-03-26T14:35:03.499063",
   "status": "processed",
   "detections": [
     {
@@ -19,5 +19,9 @@
     "person_count": 0
   },
   "severity": null,
-  "caption": "oh, he ' s a girl sticker"
+  "caption": "oh, he ' s a girl sticker",
+  "nlp_analysis": {
+    "safety_measures": [],
+    "has_safety": false
+  }
 }

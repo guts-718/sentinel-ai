@@ -4,6 +4,7 @@ from datetime import datetime
 from src.models.yolo_detector import YOLODetector
 from src.pipeline.ppe_logic import PPELogic
 from src.models.vlm_captioner import VLMCaptioner
+from src.models.nlp_extractor import NLPExtractor
 
 class BasePipeline:
     def __init__(self, config, logger):
@@ -12,6 +13,7 @@ class BasePipeline:
         self.detector = YOLODetector()
         self.ppe_logic = PPELogic()
         self.vlm = VLMCaptioner()
+        self.nlp = NLPExtractor()
 
     def process_image(self, image_path):
         self.logger.info(f"Processing image: {image_path}")
@@ -25,6 +27,10 @@ class BasePipeline:
         caption = self.vlm.generate_caption(image_path)
         self.logger.info(f"Caption: {caption}")
 
+        nlp_result = self.nlp.extract(caption)
+
+        self.logger.info(f"NLP result: {nlp_result}")
+
         result = {
             "image_id": image_path.split("/")[-1],
             "timestamp": datetime.utcnow().isoformat(),
@@ -33,6 +39,7 @@ class BasePipeline:
             "ppe_compliance": ppe_result,
             "severity": None,
             "caption": caption,
+            "nlp_analysis": nlp_result,
         }
 
         return result
