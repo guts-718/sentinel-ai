@@ -2,3 +2,6 @@ opencv-python
 pyyaml
 tqdm
 ultralytics
+transformers
+torch
+pillow

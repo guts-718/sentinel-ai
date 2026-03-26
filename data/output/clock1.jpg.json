@@ -1,6 +1,6 @@
 {
   "image_id": "input\\clock1.jpg",
-  "timestamp": "2026-03-26T13:05:42.433832",
+  "timestamp": "2026-03-26T14:27:31.000851",
   "status": "processed",
   "detections": [
     {
@@ -18,5 +18,6 @@
     "status": "no_worker",
     "person_count": 0
   },
-  "severity": null
+  "severity": null,
+  "caption": "an alarm clock on a white background"
 }

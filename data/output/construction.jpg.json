@@ -1,6 +1,6 @@
 {
   "image_id": "input\\construction.jpg",
-  "timestamp": "2026-03-26T13:05:42.554904",
+  "timestamp": "2026-03-26T14:27:31.658983",
   "status": "processed",
   "detections": [
     {
@@ -48,5 +48,6 @@
     "status": "unknown",
     "person_count": 4
   },
-  "severity": null
+  "severity": null,
+  "caption": "two construction workers are looking at a building"
 }
