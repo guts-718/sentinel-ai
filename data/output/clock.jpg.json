@@ -1,16 +1,21 @@
 {
   "image_id": "input\\clock.jpg",
-  "timestamp": "2026-03-26T14:35:00.898378",
+  "timestamp": "2026-03-27T03:06:54.595359",
   "status": "processed",
   "detections": [],
   "ppe_compliance": {
     "status": "no_worker",
     "person_count": 0
   },
-  "severity": null,
+  "severity": {
+    "severity": "high",
+    "lighting": "bright",
+    "has_safety": false
+  },
   "caption": "a clock with a white face and black hands",
   "nlp_analysis": {
     "safety_measures": [],
-    "has_safety": false
+    "has_safety": false,
+    "raw_caption": "a clock with a white face and black hands"
   }
 }

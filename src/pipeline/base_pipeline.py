@@ -5,6 +5,7 @@ from src.models.yolo_detector import YOLODetector
 from src.pipeline.ppe_logic import PPELogic
 from src.models.vlm_captioner import VLMCaptioner
 from src.models.nlp_extractor import NLPExtractor
+from src.pipeline.severity_engine import SeverityEngine
 
 class BasePipeline:
     def __init__(self, config, logger):
@@ -14,6 +15,7 @@ class BasePipeline:
         self.ppe_logic = PPELogic()
         self.vlm = VLMCaptioner()
         self.nlp = NLPExtractor()
+        self.severity_engine = SeverityEngine()
 
     def process_image(self, image_path):
         self.logger.info(f"Processing image: {image_path}")
@@ -23,13 +25,20 @@ class BasePipeline:
 
         ppe_result = self.ppe_logic.evaluate(detections)
         self.logger.info(f"PPE result: {ppe_result}")
-        
         caption = self.vlm.generate_caption(image_path)
         self.logger.info(f"Caption: {caption}")
 
         nlp_result = self.nlp.extract(caption)
 
         self.logger.info(f"NLP result: {nlp_result}")
+
+        severity_result = self.severity_engine.evaluate(
+            caption,
+            nlp_result,
+            ppe_result
+        )
+
+        self.logger.info(f"Severity: {severity_result}")
 
         result = {
             "image_id": image_path.split("/")[-1],
@@ -40,6 +49,7 @@ class BasePipeline:
             "severity": None,
             "caption": caption,
             "nlp_analysis": nlp_result,
+            "severity": severity_result,
         }
 
         return result
