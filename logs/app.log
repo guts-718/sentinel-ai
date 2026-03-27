@@ -253,3 +253,72 @@
 2026-03-27 08:36:58,149 - INFO - NLP result: {'safety_measures': [], 'has_safety': False, 'raw_caption': "oh, he ' s a girl sticker"}
 2026-03-27 08:36:58,150 - INFO - Severity: {'severity': 'high', 'lighting': 'bright', 'has_safety': False}
 2026-03-27 08:36:58,151 - INFO - Saved output for osaka.jpg
+2026-03-27 09:18:31,922 - INFO - Environment variables loaded successfully
+2026-03-27 09:18:33,194 - INFO - HTTP Request: GET https://huggingface.co/api/models/Salesforce/blip-image-captioning-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-27 09:18:33,713 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/blip-image-captioning-base/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-03-27 09:18:34,222 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/blip-image-captioning-base/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+2026-03-27 09:18:34,627 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/blip-image-captioning-base/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-03-27 09:18:35,142 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/blip-image-captioning-base/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+2026-03-27 09:18:35,471 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/blip-image-captioning-base/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-03-27 09:18:35,473 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-27 09:18:35,912 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/blip-image-captioning-base/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-27 09:18:36,061 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Salesforce/blip-image-captioning-base/82a37760796d32b1411fe092ab5d4e227313294b/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-03-27 09:18:36,573 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/blip-image-captioning-base/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-03-27 09:18:37,017 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/blip-image-captioning-base/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-27 09:18:37,187 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Salesforce/blip-image-captioning-base/82a37760796d32b1411fe092ab5d4e227313294b/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-03-27 09:18:37,610 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/blip-image-captioning-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-27 09:18:37,709 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Salesforce/blip-image-captioning-base/82a37760796d32b1411fe092ab5d4e227313294b/config.json "HTTP/1.1 200 OK"
+2026-03-27 09:18:38,086 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/blip-image-captioning-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-27 09:18:38,118 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Salesforce/blip-image-captioning-base/82a37760796d32b1411fe092ab5d4e227313294b/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-27 09:18:38,573 - INFO - HTTP Request: GET https://huggingface.co/api/models/Salesforce/blip-image-captioning-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-27 09:18:38,979 - INFO - HTTP Request: GET https://huggingface.co/api/models/Salesforce/blip-image-captioning-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-27 09:18:39,543 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/blip-image-captioning-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-27 09:18:39,645 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Salesforce/blip-image-captioning-base/82a37760796d32b1411fe092ab5d4e227313294b/config.json "HTTP/1.1 200 OK"
+2026-03-27 09:18:40,058 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/blip-image-captioning-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-03-27 09:18:40,403 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/blip-image-captioning-base/resolve/main/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-03-27 09:18:40,771 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/blip-image-captioning-base/resolve/main/pytorch_model.bin "HTTP/1.1 302 Found"
+2026-03-27 09:18:41,205 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/blip-image-captioning-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-03-27 09:18:41,679 - INFO - HTTP Request: GET https://huggingface.co/api/models/Salesforce/blip-image-captioning-base "HTTP/1.1 200 OK"
+2026-03-27 09:18:42,106 - INFO - HTTP Request: GET https://huggingface.co/api/models/Salesforce/blip-image-captioning-base/commits/main "HTTP/1.1 200 OK"
+2026-03-27 09:18:42,219 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/blip-image-captioning-base/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-03-27 09:18:42,537 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/blip-image-captioning-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-27 09:18:42,555 - INFO - HTTP Request: GET https://huggingface.co/api/models/Salesforce/blip-image-captioning-base/discussions?p=0 "HTTP/1.1 200 OK"
+2026-03-27 09:18:42,661 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Salesforce/blip-image-captioning-base/82a37760796d32b1411fe092ab5d4e227313294b/config.json "HTTP/1.1 200 OK"
+2026-03-27 09:18:42,666 - INFO - Processing image: data/input\clock.jpg
+2026-03-27 09:18:42,992 - INFO - HTTP Request: GET https://huggingface.co/api/models/Salesforce/blip-image-captioning-base/commits/refs%2Fpr%2F52 "HTTP/1.1 200 OK"
+2026-03-27 09:18:43,068 - INFO - Detections: []
+2026-03-27 09:18:43,069 - INFO - PPE result: {'status': 'no_worker', 'person_count': 0}
+2026-03-27 09:18:43,331 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/blip-image-captioning-base/resolve/refs%2Fpr%2F52/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-03-27 09:18:43,651 - INFO - HTTP Request: HEAD https://huggingface.co/Salesforce/blip-image-captioning-base/resolve/refs%2Fpr%2F52/model.safetensors "HTTP/1.1 302 Found"
+2026-03-27 09:18:45,030 - INFO - Caption: a clock with a white face and black hands
+2026-03-27 09:18:45,030 - INFO - NLP result: {'safety_measures': [], 'has_safety': False, 'raw_caption': 'a clock with a white face and black hands'}
+2026-03-27 09:18:45,030 - INFO - Severity: {'severity': 'none', 'lighting': 'bright', 'has_safety': False}
+2026-03-27 09:18:45,032 - INFO - Saved output for clock.jpg
+2026-03-27 09:18:45,032 - INFO - Processing image: data/input\clock1.jpg
+2026-03-27 09:18:45,118 - INFO - Detections: [{'class': 'clock', 'confidence': 0.531671404838562, 'bbox': [41.42827606201172, 60.652000427246094, 251.0589599609375, 302.3720703125]}]
+2026-03-27 09:18:45,119 - INFO - PPE result: {'status': 'no_worker', 'person_count': 0}
+2026-03-27 09:18:45,947 - INFO - Caption: an alarm clock on a white background
+2026-03-27 09:18:45,947 - INFO - NLP result: {'safety_measures': [], 'has_safety': False, 'raw_caption': 'an alarm clock on a white background'}
+2026-03-27 09:18:45,947 - INFO - Severity: {'severity': 'none', 'lighting': 'bright', 'has_safety': False}
+2026-03-27 09:18:45,949 - INFO - Saved output for clock1.jpg
+2026-03-27 09:18:45,950 - INFO - Processing image: data/input\construction.jpg
+2026-03-27 09:18:46,072 - INFO - Detections: [{'class': 'person', 'confidence': 0.8164794445037842, 'bbox': [476.86285400390625, 802.1149291992188, 839.3838500976562, 1272.1033935546875]}, {'class': 'person', 'confidence': 0.7913116216659546, 'bbox': [1037.221435546875, 884.5594482421875, 1200.56103515625, 1275.2618408203125]}, {'class': 'person', 'confidence': 0.7422417402267456, 'bbox': [1167.9224853515625, 643.7786254882812, 1800.097412109375, 1270.083984375]}, {'class': 'person', 'confidence': 0.3113192021846771, 'bbox': [833.5984497070312, 975.3277587890625, 1083.3355712890625, 1276.056640625]}]
+2026-03-27 09:18:46,072 - INFO - PPE result: {'status': 'unknown', 'person_count': 4}
+2026-03-27 09:18:47,024 - INFO - Caption: two construction workers are looking at a building
+2026-03-27 09:18:47,025 - INFO - NLP result: {'safety_measures': [], 'has_safety': False, 'raw_caption': 'two construction workers are looking at a building'}
+2026-03-27 09:18:47,025 - INFO - Severity: {'severity': 'high', 'lighting': 'bright', 'has_safety': False}
+2026-03-27 09:18:47,027 - INFO - Saved output for construction.jpg
+2026-03-27 09:18:47,027 - INFO - Processing image: data/input\man.jpg
+2026-03-27 09:18:47,197 - INFO - Detections: [{'class': 'person', 'confidence': 0.9095549583435059, 'bbox': [800.6801147460938, 788.5094604492188, 1734.535888671875, 2610.8828125]}]
+2026-03-27 09:18:47,198 - INFO - PPE result: {'status': 'unknown', 'person_count': 1}
+2026-03-27 09:18:48,313 - INFO - Caption: a man walking on a beach with a skateboard
+2026-03-27 09:18:48,313 - INFO - NLP result: {'safety_measures': [], 'has_safety': False, 'raw_caption': 'a man walking on a beach with a skateboard'}
+2026-03-27 09:18:48,314 - INFO - Severity: {'severity': 'high', 'lighting': 'bright', 'has_safety': False}
+2026-03-27 09:18:48,315 - INFO - Saved output for man.jpg
+2026-03-27 09:18:48,316 - INFO - Processing image: data/input\osaka.jpg
+2026-03-27 09:18:48,402 - INFO - Detections: [{'class': 'clock', 'confidence': 0.34363293647766113, 'bbox': [353.8269958496094, 74.54338073730469, 974.9519653320312, 925.763916015625]}]
+2026-03-27 09:18:48,402 - INFO - PPE result: {'status': 'no_worker', 'person_count': 0}
+2026-03-27 09:18:49,281 - INFO - Caption: oh, he ' s a girl sticker
+2026-03-27 09:18:49,281 - INFO - NLP result: {'safety_measures': [], 'has_safety': False, 'raw_caption': "oh, he ' s a girl sticker"}
+2026-03-27 09:18:49,281 - INFO - Severity: {'severity': 'none', 'lighting': 'bright', 'has_safety': False}
+2026-03-27 09:18:49,283 - INFO - Saved output for osaka.jpg

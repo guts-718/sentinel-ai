@@ -5,3 +5,5 @@ ultralytics
 transformers
 torch
 pillow
+requests
+python-dotenv

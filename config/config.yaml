@@ -8,3 +8,7 @@ paths:
 
 logging:
   level: INFO
+
+telegram:
+  token: ${TELEGRAM_TOKEN}
+  chat_id: ${TELEGRAM_CHAT_ID}

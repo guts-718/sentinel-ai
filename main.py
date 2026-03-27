@@ -1,15 +1,26 @@
 import os
 import yaml
+from dotenv import load_dotenv
 from src.utils.logger import setup_logger
 from src.pipeline.base_pipeline import BasePipeline
+from src.utils.env import get_env
 
 def load_config():
+    load_dotenv() 
+
     with open("config/config.yaml") as f:
-        return yaml.safe_load(f)
+        config = yaml.safe_load(f)
+
+    # Replace env variables
+    config["telegram"]["token"] = get_env("TELEGRAM_TOKEN")
+    config["telegram"]["chat_id"] = get_env("TELEGRAM_CHAT_ID")
+
+    return config
 
 def main():
     config = load_config()
     logger = setup_logger(config["paths"]["log_dir"])
+    logger.info("Environment variables loaded successfully")
 
     pipeline = BasePipeline(config, logger)
 
